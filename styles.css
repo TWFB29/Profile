@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
+}
+
+.Header {
+    padding: 50px;
+    background-color: brown;
+    size: auto;
+    contain: layout;
+}
+
+.Header h1 {
+    float: left;
+    font-weight: bold;
+    color: orange;
+    display: inline-block;
+    font-size: 36px;
+}
+
+.Header a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+.Header nav {
+    float: right;
+    margin: 7px 0;
+    display: inline-block;
+}
+
+.Header nav ul li{
+    display: inline;
+}
+
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+  }
