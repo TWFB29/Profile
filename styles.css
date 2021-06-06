@@ -64,7 +64,7 @@ header nav ul li a {
   .Work {
     background-color: brown;
     display: inline-flex;
-    max-width: 100%; 
+    width: 100%; 
   }
   .Work h2 {
     float: left;
@@ -72,3 +72,28 @@ header nav ul li a {
     border-right: solid;
     padding: 25px;
   }
+
+  .flex-container {
+    background-image: "run buddy.jpg";
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .run-buddy {
+      padding: 25px;
+  }
+
+  .box-r {
+      color: orangered;
+      background-color: white;
+  }
+  .Horiseon {
+    padding: 25px;
+}
+
+.box-h {
+    color: orangered;
+    background-color: white;
+}
