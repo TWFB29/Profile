@@ -40,3 +40,35 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 22px;
   }
+
+  .About-me {
+    background-color: orangered;
+    display: inline-flex;
+    max-width: 100%;
+  }
+
+  .About-me h2 {
+    float: left;
+    color: white;
+    border-right: solid;
+    padding: 25px;
+  }
+
+  .About-me p {
+    float:right;
+    padding: 25px;
+    line-height: 1.5;
+    color: white; 
+  }
+
+  .Work {
+    background-color: brown;
+    display: inline-flex;
+    max-width: 100%; 
+  }
+  .Work h2 {
+    float: left;
+    color: orange;
+    border-right: solid;
+    padding: 25px;
+  }
