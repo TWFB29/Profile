@@ -15,8 +15,12 @@
     float: left;
     font-weight: bold;
     color: orange;
-    display: inline-block;
+    display: inline-flex;
     font-size: 36px;
+}
+
+.Header img {
+    margin: 25px;
 }
 
 .Header a {
@@ -28,7 +32,7 @@
 .Header nav {
     float: right;
     margin: 7px 0;
-    display: inline-block;
+    display: inline-flex;
 }
 
 .Header nav ul li{
@@ -39,61 +43,117 @@ header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 22px;
-  }
+}
 
-  .About-me {
+.About-me {
     background-color: orangered;
     display: inline-flex;
     max-width: 100%;
-  }
+}
 
-  .About-me h2 {
+.About-me h2 {
     float: left;
     color: white;
     border-right: solid;
     padding: 25px;
-  }
+}
 
-  .About-me p {
+.About-me p {
     float:right;
     padding: 25px;
     line-height: 1.5;
     color: white; 
-  }
+}
 
-  .Work {
+.Work {
     background-color: brown;
     display: inline-flex;
     width: 100%; 
-  }
-  .Work h2 {
+}
+.Work h2 {
     float: left;
     color: orange;
     border-right: solid;
     padding: 25px;
-  }
+}
 
-  .flex-container {
-    background-image: "run buddy.jpg";
+.flex-container {
     padding: 1rem;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-  }
+}
 
-  .run-buddy {
-      padding: 25px;
-  }
-
-  .box-r {
-      color: orangered;
-      background-color: white;
-  }
-  .Horiseon {
+.run-buddy {
     padding: 25px;
+}
+
+.thumbnail-run:hover {
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width:500px;
+    height:auto;
+    display:block;
+    z-index:999;
+}
+
+.box-r {
+    color: orangered;
+    background-color: white;
+}
+
+.Horiseon {
+    padding: 25px;
+}
+
+.thumbnail-hor:hover {
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width:500px;
+    height:auto;
+    display:block;
+    z-index:999;
 }
 
 .box-h {
     color: orangered;
     background-color: white;
+}
+
+.Contact-me {
+    padding: 25px;
+    background-color: chocolate;
+    size: auto;
+    contain: layout;
+}
+
+.Contact-me h2 {
+    float: left;
+    color: white;
+    border-right: solid;
+    padding: 25px; 
+}
+
+.Contact-me a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+.Contact-me nav {
+    float: right;
+    margin: 7px 0;
+    display: inline-flex;
+}
+
+.Contact-me nav ul li{
+    display: inline;
+}
+
+.Contact-me nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
 }
